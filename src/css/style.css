@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root{
     --orange-fos: rgb(236, 55, 0);
@@ -14,19 +15,33 @@
 .encabezado {
     background-color: rgb(236, 55, 0);
     width: 100%;
-    height: 92px;
+    height: 70px;
     display: flex;
+    align-items: center;
+    justify-content:space-between;
+
 }
 
 .nav{
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    position: relative;
-    left: 180px;
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.nav a{
+    color: black;
 }
 
 .imagen_nav{
-    width: 90px;
-    height: 70px;
+    width: 70px;
+    height: px;
+    display: flex;
+    position: relative;
+    right: 10px;
+}
+
+.marcas{
+    position: relative;
+    right: 40px;
 }
