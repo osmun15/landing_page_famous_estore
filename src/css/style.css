@@ -19,7 +19,9 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 
 .nav{
@@ -48,11 +50,12 @@
 }
 
 .logo_referencias{
-    width: 210px;
-    height: 200px;
+    width: 150px;
+    height: 130px;
     border-style: outset;
     border-radius: 200px;
     border-color: var(--orange-fos);
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 .logo_referencias_1{
@@ -68,20 +71,20 @@
 .titulo_referencias{
     border-style:outset;
     border-radius: 500px;
-    margin-top: 35px;
+    margin-top: 80px;
     margin-left: 530px;
-    margin-bottom: 35px;
     width: 250px;
     background-color: var(--orange-fos);
     border-color: var(--orange-fos);
     position: sticky;
-    top: 0px;
-    z-index: 3;
+    top: 70px;
+    z-index: 1;
 }
 
 .marca_referencias{
     text-align: center;
     width: 100%;
+    margin-top: 40px;
 }
 
 .imagen_body{
@@ -115,4 +118,5 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 15px;
 }
