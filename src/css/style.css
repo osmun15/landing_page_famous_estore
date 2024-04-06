@@ -196,12 +196,10 @@
 
 
 
-.contacto{
-    margin-left: 0px;
-}
 
 .contenedor_contacto{
-    margin-top: 35px;
+    margin-top: 18px;
+    margin-left: 780px;
     display: block;
     align-items: center;
     text-align: center;
@@ -210,20 +208,116 @@
     border-width: 5px;
     background-color: var(--orange-fos_tr);
     padding: 10px;
-    width: 32%;
+    width: 300px;
+    height: 310px;
 }
 
 .titulo_contacto{
     border-style:outset;
     border-radius: 500px;
-    margin-top: 140px;
-    margin-left: 780px;
-    width: 280px;
+    margin-top: 170px;
+    margin-left: 796px;
+    width: 260px;
     text-align: center;
     background-color: var(--orange-fos);
     border-color: var(--orange-fos);
     position: sticky;
     top: 10%;
     z-index: 1;
+}
+
+
+
+#titulo_somos{
+    border-style:outset;
+    border-radius: 500px;
+    margin-top: 45px;
+    margin-left: 776px;
+    width: 310px;
+    text-align: center;
+    background-color: var(--orange-fos);
+    border-color: var(--orange-fos);
+    position: sticky;
+    top: 10%;
+    z-index: 1;
+}
+
+#parrafo_somos{
+    margin-top: 18px;
+    margin-left: 780px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    border: none;
+    border-width: 5px;
+    background-color: var(--orange-fos_tr);
+    padding: 10px;
+    width: 300px;
+    height: 270px;
+}
+
+#titulo_ubicacion{
+    border-style:outset;
+    border-radius: 500px;
+    margin-top: 45px;
+    margin-left: 798px;
+    position: relative;
+    width: 255px;
+    text-align: center;
+    background-color: var(--orange-fos);
+    border-color: var(--orange-fos);
+    position: sticky;
+    top: 10%;
+    z-index: 1;
+}
+
+.direccion{
+    margin-top: 22px;
+    margin-left: 779px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    border: none;
+    border-width: 5px;
+    background-color: var(--orange-fos_tr);
+    padding: 10px;
+    width: 300px;
+    height: 418px;
+}
+
+#titulo_redes{
+    border-style:outset;
+    border-radius: 500px;
+    margin-top: 45px;
+    margin-left: 794px;
+    position: relative;
+    width: 255px;
+    text-align: center;
+    background-color: var(--orange-fos);
+    border-color: var(--orange-fos);
+    position: sticky;
+    top: 10%;
+    z-index: 1;
+}
+
+.icono_redes{
+    margin-top: 18px;
+    margin-left: 847px;
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--orange-fos_tr);
+    position: relative;
+    padding: 10px;
+    width: 150px;
+}
+
+.icono_redes a{
+    color: black;
 }
 
