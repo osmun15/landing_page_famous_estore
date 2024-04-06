@@ -20,6 +20,7 @@ Fecha: 06/04/2024 */
     font-family: "Mate SC", serif;
 }
 
+/* se importa fuentes e iconos y se establece paleta de colores */
 
 .main{
     background-color: var(--mocca)
@@ -47,7 +48,7 @@ Fecha: 06/04/2024 */
     margin-right: 1082px;
 }
 
-
+/* se le ingresa estilo al encabezado y a su contenido */
 
 
 .nav{
@@ -71,7 +72,7 @@ Fecha: 06/04/2024 */
     right: 10px;
 }
 
-
+/* se configura barra de navegacion */
 
 
 .marcas{
@@ -122,9 +123,7 @@ Fecha: 06/04/2024 */
     margin-top: 40px;
 }
 
-
-
-
+/* se le da estilo a la primera secion */ 
 
 .marca_referencias_2{
     text-align: center;
@@ -169,7 +168,7 @@ Fecha: 06/04/2024 */
     margin-bottom: 30px;
 }
 
-
+/* le damos estilo con bordes, display y organizador de texto a la segunda seccion */
 
 .imagen_body{
     width: 250px;
@@ -195,6 +194,8 @@ Fecha: 06/04/2024 */
     color: black;
 }
 
+/* se configura boton de compra */
+
 .items_body{
     display: flex;
     gap: 20px;
@@ -216,6 +217,7 @@ Fecha: 06/04/2024 */
         margin-top: 25px;
 }
 
+/* se le da estilo a la seccion 1 y 2 de la page */
 
 .contenedor_contacto{
     margin-top: 18px;
@@ -246,7 +248,7 @@ Fecha: 06/04/2024 */
     z-index: 1;
 }
 
-
+/* se le da estilo a la tercera seccion de la pagina  en la parte de contacto */
 
 #titulo_somos{
     border-style:outset;
@@ -276,6 +278,8 @@ Fecha: 06/04/2024 */
     width: 300px;
     height: 270px;
 }
+
+/* se agrega y se organiza con el respectivo estilo la parte de los datos de la tienda */
 
 #titulo_ubicacion{
     border-style:outset;
@@ -340,6 +344,8 @@ Fecha: 06/04/2024 */
 .icono_redes a{
     color: black;
 }
+
+/* se organiza las redes con iconono y enlace y se termina con el pie de apgina */
 
 .footer{
     background-color: var(--orange-fos);
